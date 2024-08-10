@@ -1,0 +1,294 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:  rgb(6, 6, 60);
+}
+#firstpage1{
+    background-color:none;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0px;
+    background-color: rgb(6, 6, 60);
+}
+#firstpage{
+    background-color: rgb(6, 6, 60);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#name{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    height: 200px;
+    width: 500px;
+}
+
+#secpage{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(6, 6, 60);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+}
+#logo{
+    height:300px;
+    width: 300px;
+    border-radius: 50%;
+    background-color: beige;
+    margin-bottom: 40px;
+    background-image: url("1697800357649.jpg");
+    background-size: cover;
+}
+h1.secpage{
+    font-size: 30px;
+    color: white;
+}
+div.secpage{
+    margin-top: 30px;
+    text-align: center;
+    color: white;
+    font-size:25px;
+    height: 210px;
+    width: 500px;
+   
+}
+.therpage{
+    height:100vh;
+    width:100vw;
+    background-color:white;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box{
+    height: 100px;
+    width: 80vw;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+    background-color:  rgb(6, 6, 60);
+    border-radius: 10px;
+}
+.hading{
+    font-size: 50px;
+    margin: 40px;
+}
+a{
+    font-size: 40px;
+    color: white;
+    text-decoration: none;
+    margin: 10PX;
+    color:whitesmoke;
+}
+#youtube{
+    color: red;
+    font-size: 40px;
+}
+@media (max-width:800px) {
+    #youtube{
+        font-size:30px ;
+    }
+    
+}
+@media (max-width:650px) {
+    #youtube{
+        font-size:20px ;
+    }
+    
+}
+@media (max-width:400px) {
+    #youtube{
+        font-size:15px ;
+    }
+    
+}
+#facebook{
+    color: rgb(21, 21, 221);
+    font-size: 40px;
+}
+#twitter{
+    font-size: 40px;
+    color: white;
+}
+@media (max-width:800px) {
+    #twitter{
+        font-size:30px ;
+    }
+    
+}
+@media (max-width:650px) {
+    #twitter{
+        font-size:20px ;
+    }
+    
+}
+@media (max-width:400px) {
+    #twitter{
+        font-size:15px ;
+    }
+    
+}
+#insta{
+font-size: 40px;
+color: rgb(239, 12, 220);
+}
+@media (max-width:600px) {
+    #name{
+        font-size: 30px;
+        width: 200px;
+    }
+    
+}
+@media (max-width:600px) {
+    #logo{
+        width: 150px;
+        height: 150px;
+    }
+    
+}
+@media (max-width:600px) {
+    h1.secpage{
+        font-size: 20px;
+    }
+    
+}
+@media (max-width:600px) {
+    div.secpage{
+        font-size: 15px;
+        width: 300px;
+    }
+}
+@media (max-width:600px) {
+    .hading{
+        font-size: 40px;
+    }
+    @media (max-width:400px) {
+        .hading{
+            font-size: 30px;
+        }
+        
+    }
+    
+}
+@media (max-width:600px) {
+    .box{
+        height: 70px;
+        margin: 20px;
+    }
+    
+}
+.forpage{
+    height: 80vh;
+    width: 100vw;
+   flex-direction: column; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:white ;
+}
+h2.forpage{
+    width: 40vw;
+    font-size: 50px;
+    text-align: center;
+}
+h1.forpage{
+    font-size: 70px;
+}
+.forpage2{
+height: 10vh;
+width: 100vw;
+display: flex;
+justify-content:center;
+align-items:center;
+background-color: rgb(6, 6, 60);
+}
+@media (max-width:600px) {
+    h2.forpage{
+        font-size: 30px;
+    }
+}
+@media (max-width:600px) {
+    h1.forpage{
+        font-size: 50px;
+    }
+}
+.box2{
+    height: 80px;
+    margin: 20px;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 5px solid white;
+    background-color:  rgb(6, 6, 60);
+}
+@media (max-width:800px) {
+    a{
+        font-size:30px ;
+    }
+    
+}
+@media (max-width:650px) {
+    a{
+        font-size:20px ;
+    }
+    
+}
+@media (max-width:400px) {
+    a{
+        font-size:15px ;
+    }
+    
+}
+@media (max-width:800px) {
+    #facebook{
+        font-size:30px ;
+    }
+    
+}
+@media (max-width:650px) {
+    #facebook{
+        font-size:20px ;
+    }
+    
+}
+@media (max-width:400px) {
+    #facebook{
+        font-size:15px ;
+    }
+    
+}
+@media (max-width:800px) {
+    #insta{
+        font-size:30px ;
+    }
+    
+}
+@media (max-width:650px) {
+    #insta{
+        font-size:20px ;
+    }
+    
+}
+@media (max-width:400px) {
+    #insta{
+        font-size:15px ;
+    } 
+}
